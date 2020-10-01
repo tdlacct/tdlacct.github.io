@@ -1,0 +1,28 @@
+[
+    {
+        "src": "images/graphicdesign/belton.png",
+        "name": "Belton Logo",
+        "desc": "Designed to reflect the city of Belton, this monogram is styled after Victorian letter design."
+    },
+    {
+        "src": "images/graphicdesign/icons.png",
+        "name": "UI Icons",
+        "desc": "Pixel art icons of various computer hardware components."
+    },
+    {
+        "src": "images/graphicdesign/spray.png",
+        "name": "Spray Can Emblem",
+        "desc": "A simple emblem designed as part of an icon series. The abstracted design uses simple shapes but still implies the image of a spray can."
+    },
+    {
+        "src": "images/graphicdesign/wave.png",
+        "name": "Wave Design Logo",
+        "desc": "A personal logo used for my retro computer graphics brand. The design utilizes modified letters from the Chicago typeface."
+    },
+    {
+        "src": "images/graphicdesign/crunix.png",
+        "name": "Crunix Logo",
+        "desc": "A basic Helvetica logo used on official Crunix student organization documents. The bottom stripes represent the computer RGB color scheme."
+    }
+
+]

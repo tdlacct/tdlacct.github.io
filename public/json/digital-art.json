@@ -1,0 +1,24 @@
+[
+    {
+        "src": "/images/graphicdesign/cube.png",
+        "name": "Isocube",
+        "desc": "An isometric 3D render inspired by the artwork of M.C. Escher."
+    },
+    {
+        "src": "/images/graphicdesign/snowball.png",
+        "name": "Snowball Fight",
+        "desc": "Two snowmen having a friendly snowball fight. Designed and rendered in less than three hours for a speedart competition."
+    },
+    {
+        "src": "/images/graphicdesign/chess.png",
+        "name": "3D Chess",
+        "desc": "A surreal shot with chess pieces inspired by a vintage Windows background. Rendered on a 1999 Macintosh as part of a retro CGI project."
+    },
+    {
+        "src": "/images/graphicdesign/jellywave.png",
+        "name": "Grape Jellywave",
+        "desc": "A vaporwave-esque statue rendered with a custom made grape jelly shader."
+    }
+   
+
+]
