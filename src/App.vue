@@ -7,23 +7,23 @@
       </div>
 
       <div class="col-nav">
-      <router-link to="/" style="background-color: #7874b9" :class="setClass('home')" v-on:click.native="selected='home'">
+      <router-link to="/" style="background-color: #7874b9" :class="setClass('')">
       <span>Home</span>
       </router-link>
 
-      <router-link to="/graphicdesign/featured-graphic-design" style="background-color: #7874b9" :class="setClass('gd')" v-on:click.native="selected='gd'" >
+      <router-link to="/graphicdesign/featured-graphic-design" style="background-color: #7874b9" :class="setClass('/graphicdesign')" >
       <span >Graphic Design</span>
       </router-link>
 
-    <router-link to="/photography/featured-photography" style="background-color: rgb(110 106 170);" :class="setClass('photo')" v-on:click.native="selected='photo'">
+    <router-link to="/photography/featured-photography" style="background-color: rgb(110 106 170);" :class="setClass('/photography')">
       <span>Photography</span>
     </router-link>
 
-    <router-link to="/programming" style="background-color: rgb(105 101 160);" :class="setClass('program')" v-on:click.native="selected='program'">
+    <router-link to="/programming" style="background-color: rgb(105 101 160);" :class="setClass('/programming')">
       <span >Programming</span>
     </router-link>
 
-    <a href="contact.html" style="background-color: rgb(100 97 151)" :class="setClass('contact')" v-on:click.native="selected='contact'">
+    <a href="contact.html" style="background-color: rgb(100 97 151)" :class="setClass('contact')">
     <span >Contact</span>
     </a>
 
@@ -53,14 +53,16 @@ export default {
   },
   data: function () {
     return {
-      selected: 'home',
+      
     }
   },
 
   methods: {
+    
     setClass(name) {
-      if (this.selected === name) {
+      if (name === this.$router.currentRoute.matched[0].path) {
         return 'tile-selected'
+        
       }
       return 'tile'
     }

@@ -4,7 +4,7 @@
 <div style="text-align: center; margin: auto;">
   <h3>Logos and Emblems</h3>
   <p>As a student, I have designed logos for both fictional and real-world brands.</p>
-  </div>
+</div>
  
   <window :images='array'></window>
 </div>
@@ -32,7 +32,7 @@ export default {
       .get('/json/logo.json')
       .then(response => {
           console.log(response.data);
-          this.array = response.data;
+          this.array = response.data.sort((a, b) => a.name.localeCompare(b.name));
       });
   }
   }

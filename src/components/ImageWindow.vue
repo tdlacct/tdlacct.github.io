@@ -3,13 +3,15 @@
     <div class="selection-image-box-nomodal" v-for="(subimg, index) in images" :key="subimg">
         
         <img v-if="index % 2 == 0" class="image-logo" :src="subimg.src">
-        <div v-if="index % 2 == 0"style="padding: 20px; max-width: 400px">
+        <div v-if="index % 2 == 0" style="padding: 20px; max-width: 400px">
         <h2>{{subimg.name}}</h2>
+        <p>Created on {{subimg.date}}</p>
         <p>{{subimg.desc}}</p>
         </div>
         
-        <div v-if="index % 2 !== 0"style="padding: 20px; max-width: 400px">
+        <div v-if="index % 2 !== 0" style="padding: 20px; max-width: 400px">
         <h2>{{subimg.name}}</h2>
+        <p>Created on {{subimg.date}}</p>
         <p>{{subimg.desc}}</p>
         </div>
         <img v-if="index % 2 !== 0" class="image-logo" :src="subimg.src">
@@ -34,7 +36,9 @@ export default {
 
   },
   mounted: function () {
+    
       console.log(this.images);
+      
   }
 }
 </script>

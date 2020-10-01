@@ -2,22 +2,26 @@
     {
         "src": "/images/graphicdesign/spec.png",
         "name": "Chicago Type Specimen Booklet",
-        "desc": "A booklet on the Macintosh Chicago typeface that mimics the classic MacOS UI."
+        "desc": "A booklet on the Macintosh Chicago typeface that mimics the classic MacOS UI.",
+        "date": "2019-05-05"
     },
     {
         "src": "/images/graphicdesign/babel.png",
         "name": "The Library of Babel",
-        "desc": "A custom-typeset copy of the short story by Jorge Luis Borges with illustrations."
+        "desc": "A custom-typeset copy of the short story by Jorge Luis Borges with illustrations.",
+        "date": "2019-03-06"
     },
     {
         "src": "/images/graphicdesign/mtype.png",
         "name": "Memphis Type",
-        "desc": "A typeface designed with abstract 3D shapes for a retro postmodern design."
+        "desc": "A typeface designed with abstract 3D shapes for a retro postmodern design.",
+        "date": "2019-02-06"
     },
     {
         "src": "/images/graphicdesign/leaf.png",
         "name": "LEAF Spellcheck Poster",
-        "desc": "A poster for a fictional Cold War spellcheck program with an emphasis on future-retro design"
+        "desc": "A poster for a fictional Cold War spellcheck program with an emphasis on future-retro design",
+        "date": "2020-09-18"
     }
    
 

@@ -32,7 +32,7 @@ export default {
       .get('/json/type.json')
       .then(response => {
           console.log(response.data);
-          this.array = response.data;
+          this.array = response.data.sort((a, b) => a.name.localeCompare(b.name));
       });
   }
   }
