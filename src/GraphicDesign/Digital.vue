@@ -7,13 +7,15 @@
   </div>
  
   <window :images='array'></window>
+  
 </div>
 </div>
 </template>
 
 <script>
 import ImageWindow from '../components/ImageWindow.vue'
-import axios from 'axios';
+import axios from 'axios'
+
 
 export default {
   name: 'Digital',
@@ -21,10 +23,12 @@ export default {
 
   components: {
       'window': ImageWindow,
+     
   },
   data: function () {
     return {
       array: null,
+      displayModal: true,
     }
   },
   mounted: function () {
