@@ -22,6 +22,12 @@
         "name": "Grape Jellywave",
         "desc": "A vaporwave-esque statue rendered with a custom made grape jelly shader.",
         "date": "2020-06-29"
+    },
+    {
+        "src": "/images/graphicdesign/mothman.jpg",
+        "name": "Lämp Bulb",
+        "desc": "Created for an art challenge, this piece depicts a creepy moth staring at a lightbulb.",
+        "date": "2020-10-02"
     }
    
 

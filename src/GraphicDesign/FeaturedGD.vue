@@ -10,7 +10,7 @@
 
 <script>
 import axios from 'axios';
-import ImageWindow from '../components/ImageWindow.vue'
+import Featured from '../components/Featured.vue'
 
 export default {
     
@@ -18,7 +18,7 @@ export default {
  
 
   components: {
-      'window': ImageWindow,
+      'window': Featured,
   },
   data: function () {
     return {
@@ -50,6 +50,8 @@ export default {
                 this.fullarray.sort(function(a,b){
                  return new Date(b.date) - new Date(a.date);
                 });
+
+               this.fullarray = this.fullarray.slice(0, 10);
             });
         });
     });
