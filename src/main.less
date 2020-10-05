@@ -216,19 +216,23 @@ p {
 }
 
 .display-type-button {
-	letter-spacing: 0.3em;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 1.5em;
-	text-decoration: none;
+	letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 0.9;
+    text-decoration: none;
     /* margin-top: 75px; */
     text-align: center;
     background-color: #4b42d1d9;
     padding: 20px;
-	border-radius: 10px;
-	color: white;
-	word-wrap: none;
-	display: block;
+    border-radius: 10px;
+    color: white;
+    word-wrap: none;
+    display: inline-block;
+    /* min-width: 800px; */
+    width: 300px;
+    text-overflow: ellipsis;
+    /* height: 31px; */
+    margin: 15px;
 
 }
 
@@ -267,9 +271,14 @@ p {
   }
 
   .button-container {
-	margin: auto; 
-	width: fit-content; 
-	margin-top: 50px;
+	margin: auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .selection-container {
 	  display: flex;

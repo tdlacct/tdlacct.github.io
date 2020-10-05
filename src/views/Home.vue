@@ -13,15 +13,17 @@
   <h3 style="text-align: center;">Computer Science / Graphic Design</h3>
   
   <br>
-  <p style="max-width: 800px; margin: auto; text-align: left;">Because I am a double major, this portfolio also includes programming projects in addition to graphic design work. The portfolio itself is a way to 
+  <p style="max-width: 800px; margin: auto; text-align: center;">Because I am a double major, this portfolio also includes programming projects in addition to graphic design work. The portfolio itself is a way to 
     demonstrate my ability to correctly build and launch a website without relying on third-party CMS services.
   </p>
-  <p style="max-width: 800px; margin: auto; margin-top: 15px; text-align: left;">This version of my portfolio is built using the Vue JavaScript framework. As of 10/05/20, it is still being updated. New features and content are coming soon!
-  </p>
   <div class="button-container">
-  <router-link to="/graphicdesign/featured-graphic-design" class="display-type-button" href="./graphicdesign.html">
-  Explore!
+  <router-link to="/graphicdesign/featured-graphic-design" class="display-type-button" >
+  Explore Portfolio
   </router-link>
+   
+   <a href="https://github.com/tdlacct/tdlacct.github.io" target="_blank" class="display-type-button">
+  View Project on Github
+  </a>
 </div>
 </div>
 
