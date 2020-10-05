@@ -2,17 +2,20 @@
 <div >
 <div>
 <div style="text-align: center; margin: auto;">
-  <h3>Digital Art / Renders</h3>
-  <p>In addition to graphic design, I create 3D renders and digital art in my free time.</p>
+  <h3>Product Photography</h3>
+ <h3>Coming soon!</h3>
+ <p style="display: block">This website is being updated regularly with new features and content,
+  so check back soon!</p>
   </div>
  
-  <window :images='array'></window>
+  <!-- <window :images='array'></window> !--> 
 </div>
 </div>
 </template>
 
 <script>
-import ImageWindow from '../components/ImageWindow.vue'
+
+// import ImageWindow from '../components/ImageWindow.vue'
 import axios from 'axios';
 
 export default {
@@ -20,7 +23,7 @@ export default {
  
 
   components: {
-      'window': ImageWindow,
+     
   },
   data: function () {
     return {

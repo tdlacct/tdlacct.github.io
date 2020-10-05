@@ -23,9 +23,9 @@
       <span >Programming</span>
     </router-link>
 
-    <a href="contact.html" style="background-color: rgb(100 97 151)" :class="setClass('contact')">
+    <router-link to="/contact" style="background-color: rgb(100 97 151)" :class="setClass('/contact')">
     <span >Contact</span>
-    </a>
+    </router-link>
 
   </div>
 

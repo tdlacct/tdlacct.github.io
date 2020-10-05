@@ -14,6 +14,9 @@ import FeaturedPhoto from '../Photography/FeaturedPhoto.vue'
 import Photoshop from '../Photography/Photoshop.vue'
 import ProductPhoto from '../Photography/ProductPhoto.vue'
 
+import Programming from '../Programming.vue'
+import Contact from '../Contact.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -71,7 +74,23 @@ const routes = [
         component: Photoshop
       },
     ]
-  }
+  },
+  {
+    path: '/programming',
+    name: 'Programming',
+    component: Programming,
+    children: [
+      
+    ]
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact,
+    children: [
+      
+    ]
+  },
 ]
 
 const $router = new VueRouter({
