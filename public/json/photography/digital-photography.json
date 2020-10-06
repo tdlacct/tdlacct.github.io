@@ -2,47 +2,56 @@
     {
         "src": "images/photography/fountain.jpg",
         "name": "Water Fountain",
-        "desc": "Macro close-up of a water fountain shot with a fast shutter speed."
+        "desc": "Macro close-up of a water fountain shot with a fast shutter speed.",
+        "date": "2018-04-27"
     },
     {
         "src": "images/photography/house.jpg",
         "name": "Victorian House",
-        "desc": "Wide-angle shot of a Victorian-era house with an unsettling camera angle."
+        "desc": "Wide-angle shot of a Victorian-era house with an unsettling camera angle.",
+        "date": "2020-03-09"
     },
     {
         "src": "images/photography/lizard.jpg",
         "name": "Curious Lizard",
-        "desc": "A small lizard photographed with an extreme macro lens."
+        "desc": "A small lizard photographed with an extreme macro lens.",
+        "date": "2020-06-05"
     },
     {
         "src": "images/photography/night.jpg",
         "name": "Night Flower",
-        "desc": "A bright yellow flower photographed in the middle of the night using external light sources."
+        "desc": "A bright yellow flower photographed in the middle of the night using external light sources.",
+        "date": "2018-05-05"
     },
     {
         "src": "images/photography/giraffe.jpg",
         "name": "Hungry Giraffe",
-        "desc": "A photo of a giraffe being fed at a zoo."
+        "desc": "A photo of a giraffe being fed at a zoo.",
+        "date": "2018-03-19"
     },
     {
         "src": "images/photography/sky.jpg",
         "name": "Cloudy Sky",
-        "desc": "An abstact photograph of a cloudy sky after a storm"
+        "desc": "An abstact photograph of a cloudy sky after a storm",
+        "date": "2019-10-16"
     },
     {
         "src": "images/photography/sunset.jpg",
         "name": "Evening Sunset",
-        "desc": "Shot in the middle of a forest area, this photograph captured the evening sun glaring through the trees."
+        "desc": "Shot in the middle of a forest area, this photograph captured the evening sun glaring through the trees.",
+        "date": "2018-03-02"
     },
     {
         "src": "images/photography/crepe.jpg",
         "name": "Crepe Myrtle Branch",
-        "desc": "Close-up of a blooming crepe myrtle branch during the springtime"
+        "desc": "Close-up of a blooming crepe myrtle branch during the springtime",
+        "date": "2019-06-08"
     },
     {
         "src": "images/photography/wheel.jpg",
         "name": "Wagon Wheel",
-        "desc": "Close-up of a wagon wheel at a country fair"
+        "desc": "Close-up of a wagon wheel at a country fair",
+        "date": "2019-03-14"
     }
 
 ]

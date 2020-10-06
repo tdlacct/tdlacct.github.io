@@ -1,6 +1,6 @@
 <template>
     <div class="selection-image-container-noflex">
-    <div class="selection-image-box-nomodal" v-for="(subimg, index) in images" :key="subimg">
+    <div class="selection-image-box-nomodal" v-for="(subimg, index) in images" :key="subimg.name">
         
         <img v-if="index % 2 == 0" class="image-logo" :src="subimg.src" @click="loadModal(subimg)">
         <div v-if="index % 2 == 0" style="padding: 20px; max-width: 400px">

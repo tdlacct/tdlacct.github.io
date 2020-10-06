@@ -1,6 +1,6 @@
 <template>
     <div class="selection-image-container-flex">
-    <div v-for="(subimg) in images" :key="subimg">
+    <div v-for="(subimg) in images" :key="subimg.name">
         
         <img class="image-logo" :src="subimg.src" @click="loadModal(subimg)">
         
