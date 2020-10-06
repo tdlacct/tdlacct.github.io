@@ -1,3 +1,33 @@
 [
-    
+    {
+        "src": "images/photography/a2.jpg",
+        "name": "Apple II Software Bundle",
+        "desc": "Vintage Apple II software stacked against the product packaging",
+        "date": "2020-03-08"
+    },
+    {
+        "src": "images/photography/sculpture.jpg",
+        "name": "Painting Sculpture",
+        "desc": "A collection of vases and junk-drawer objects used for a still life painting.",
+        "date": "2020-09-21"
+    },
+    {
+        "src": "images/photography/powerbook.jpg",
+        "name": "Powerbook 180",
+        "desc": "Photo of a vintage Powerbook 180 and Apple QuickTake camera in action.",
+        "date": "2020-08-03"
+    },
+    {
+        "src": "images/photography/dreamcast.jpg",
+        "name": "Sega Dreamcast",
+        "desc": "White Sega Dreamcast with Chu Chu Rocket inserted in the CD drive.",
+        "date": "2019-12-24"
+    },
+    {
+        "src": "images/photography/coke.jpg",
+        "name": "New Coke",
+        "desc": "Period-style photograph of a can of New Coke sitting on top of a Nintendo Entertainment System",
+        "date": "2019-07-12"
+    }
+
 ]

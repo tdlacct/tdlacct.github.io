@@ -1,3 +1,26 @@
 [
-    
+    {
+        "src": "images/photography/greed.jpg",
+        "name": "Greedy Hands",
+        "desc": "Photoshopped hands in suits grabbing at the Earth... because they're greedy, awful, hands.",
+        "date": "2018-09-17"
+    },
+    {
+        "src": "images/photography/film.jpg",
+        "name": "\"Silence\" Film Poster",
+        "desc": "Movie poster for a student-led short film. The photograph was taken by a different photographer, but I did the compositing and editing.",
+        "date": "2020-02-09"
+    },
+    {
+        "src": "images/photography/film2.jpg",
+        "name": "\"I See Dead People\" Film Poster ",
+        "desc": "Movie poster for a student-led comedy film. Both the photography and editing were done by myself.",
+        "date": "2019-03-21"
+    },
+    {
+        "src": "images/photography/postcard.jpg",
+        "name": "USA Forever Postage Stamp",
+        "desc": "Part of a series of fictional stamps commemorating 100 years of the American automobile. Created by compositing miniature models into photographed environments.",
+        "date": "2019-11-13"
+    }
 ]

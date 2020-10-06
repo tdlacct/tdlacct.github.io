@@ -2,27 +2,27 @@
 <div >
 <div>
 <div style="text-align: center; margin: auto;">
- <h3>Photoshop Art</h3>
-  <h3>Coming soon!</h3>
- <p style="display: block">This website is being updated regularly with new features and content,
-  so check back soon!</p>
+  <h3>Photoshop Art</h3>
+  <p>While I do basic color correction to my regular photography in Photoshop, these compositions are
+  exaggerated and surreal.</p>
   </div>
  
- <!-- <window :images='array'></window> !-->
+  <window :images='array'></window>
 </div>
 </div>
 </template>
 
 <script>
 
+import ImageWindow from '../components/ImageWindow.vue'
 import axios from 'axios';
 
 export default {
-  name: 'Digital',
+  name: 'Photoshop',
  
-
+  
   components: {
-      
+     'window': ImageWindow,
   },
   data: function () {
     return {
@@ -31,7 +31,7 @@ export default {
   },
   mounted: function () {
       axios
-      .get('/json/digital-art.json')
+      .get('/json/photography/photoshop.json')
       .then(response => {
           console.log(response.data);
           this.array = response.data.sort((a, b) => a.name.localeCompare(b.name))
