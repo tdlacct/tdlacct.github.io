@@ -3,17 +3,17 @@
 <h2 class="display-type">Programming</h2>
 <div style="width: 100%; display: flex">
   <div class="head-header">
-   
+    <router-link to="/programming/featured-programming"  class="navigation-header" >What's New?</router-link>
+    <router-link to="/programming/cplusplus" class="navigation-header">C++</router-link>
+    <router-link to="/programming/pythonjs" class="navigation-header">JavaScript / Python</router-link>
+    <router-link to="/programming/unity" class="navigation-header">Unity3D</router-link>
+    <router-link to="/programming/misc" class="navigation-header">Misc</router-link>
   </div>
 </div>
 <hr>
-<div style="text-align: center">
-<h2>Coming soon!</h2>
-<br>
-<p style="display: block">This website is being updated regularly with new features and content,
-so check back soon!</p>
+<div class="selection-container">
 <div  class="selection-div">
-
+<router-view></router-view>
 </div>
 </div>
 </div>

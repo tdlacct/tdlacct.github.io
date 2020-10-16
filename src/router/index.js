@@ -15,6 +15,12 @@ import Photoshop from '../Photography/Photoshop.vue'
 import ProductPhoto from '../Photography/ProductPhoto.vue'
 
 import Programming from '../Programming.vue'
+import C from '../Programming/C.vue'
+import FeaturedProgramming from '../Programming/FeaturedProgramming.vue'
+import JSP from '../Programming/JSP.vue'
+import Unity from '../Programming/Unity.vue'
+import Misc from '../Programming/Misc.vue'
+
 import Contact from '../Contact.vue'
 
 Vue.use(VueRouter)
@@ -56,8 +62,6 @@ const routes = [
     component: Photography,
     children: [
       {
-        // UserProfile will be rendered inside User's <router-view>
-        // when /user/:id/profile is matched
         path: 'featured-photography',
         component: FeaturedPhoto
       },
@@ -80,7 +84,26 @@ const routes = [
     name: 'Programming',
     component: Programming,
     children: [
-      
+      {
+        path: 'featured-programming',
+        component: FeaturedProgramming
+      },
+      {
+        path: 'cplusplus',
+        component: C
+      },
+      {
+        path: 'pythonjs',
+        component: JSP
+      },
+      {
+        path: 'unity',
+        component: Unity
+      },
+      {
+        path: 'misc',
+        component: Misc
+      },
     ]
   },
   {

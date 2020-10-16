@@ -1,0 +1,27 @@
+[
+    {
+        "src": "https://www.youtube.com/embed/_j9c5o0kjUY",
+        "name": "Javascript File Browser",
+        "desc": "Created for aWhere Inc, this client-side file browser is designed to access an Nginx server and list the contents of a directory. Building the browser in Javascript allowed it to integrate with the rest of aWhere's web services.",
+        "date": "2020-09-09"
+    },
+    {
+        "src": "https://www.youtube.com/embed/cZktIlNNJHk",
+        "name": "API Call Chart",
+        "desc": "Created for aWhere Inc, this web app allows the user to view API usage history.",
+        "date": "2020-06-23"
+    },
+    {
+        "src": "https://www.youtube.com/embed/l_Qi7HQy_ic",
+        "name": "Python Photoshop Editor",
+        "desc": "A Python script to bulk create D&D monster cards by interfacing with Photoshop. The script is able to edit text and activate / deactivate Photoshop layers.",
+        "date": "2020-07-12"
+    },
+    {
+        "src": "https://www.youtube.com/embed/bRy5P_ioFW8",
+        "name": "Raspberry Pi Donkey Car",
+        "desc": "A small group research project that evaluated the performance of a Pi-controlled RC car with open-source Python AI libraries",
+        "date": "2019-11-01"
+    }
+
+]
