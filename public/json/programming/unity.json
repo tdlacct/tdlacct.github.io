@@ -1,0 +1,36 @@
+[
+    {
+        "src": "images/programming/heart.jpg",
+        "name": "Kinect Heartrate Estimation",
+        "desc": "A research project that utilized the infrared camera on a standard Xbox One Kinect to estimate heartrate. The Kinect's facial tracking library was used to track a patch of the target's forehead, which was then analyzed for changes in infrared value. The final program was within 10-15 BPM of the user's actual heartrate.",
+        "date": "2019-03-06",
+        "code": ""
+    },
+    {
+        "src": "images/programming/skeleton.jpg",
+        "name": "Kinect Dancing Skeleton",
+        "desc": "A small demo used during elementary school STEM events. The skeleton copies the movement of children in front of a Kinect camera.",
+        "date": "2019-04-25",
+        "code": ""
+    },
+    {
+        "src": "images/programming/socialdistance.jpg",
+        "name": "Social Distance Checker",
+        "desc": "Created during the Covid-19 pandemic, this application utilizes an Xbox Kinect camera to track multiple people within a space. If anybody steps closer than 6 feet to the camera, the program shouts at them to back up.",
+        "date": "2020-08-12",
+        "code": ""
+    },
+    {
+        "src": "images/programming/tour.jpg",
+        "name": "CAD Building VR Tour",
+        "desc": "A 3D mockup of blueprints for a new engineering building, intended for presentations during construction. The program featured an automated walkthrough of the building with 3D graphics overlayed on top of 360 degree photography.",
+        "date": "2018-05-16"
+    },
+    {
+        "src": "images/programming/client.jpg",
+        "name": "CUDA Particle Client",
+        "desc": "Designed for the Microsoft HoloLens, this is the client program that recieves particle data from the CUDA Accelerated Particle System server. It uses data from the server to render particles in a VR / AR enviornment.",
+        "date": "2020-03-21"
+    }
+
+]

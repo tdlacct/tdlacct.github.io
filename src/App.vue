@@ -19,7 +19,7 @@
       <span>Photography</span>
     </router-link>
 
-    <router-link to="/programming" style="background-color: rgb(105 101 160);" :class="setClass('/programming')">
+    <router-link to="/programming/featured-programming" style="background-color: rgb(105 101 160);" :class="setClass('/programming')">
       <span >Programming</span>
     </router-link>
 

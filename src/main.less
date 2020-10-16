@@ -15,7 +15,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	height: 100%;
-	background-color: black;
+	background-color: #171841;
 	margin: 0;
 
 }
@@ -27,6 +27,11 @@ hr {
 }
 p {
 	line-height: 1.5em;
+}
+
+a {
+	color: white;
+    text-decoration: underline;
 }
 
 .navigation-header {
@@ -387,11 +392,43 @@ p {
     top: 0;
     left: 0;
     justify-content: center;
-    display: flex;
+	display: flex;
+	z-index: 1000;
 }
 
 .vue-modal-image {
 	align-self: center;
+}
+
+.button-icon {
+	width: 40px; 
+	height: 40px; 
+	border-radius: 10px; 
+	padding: 5px; 
+	background-color: #8079e442;
+	margin: 5px;
+}
+
+.button-icon-clicked {
+	width: 40px; 
+	height: 40px; 
+	border-radius: 10px; 
+	padding: 5px; 
+	background-color: #4b42d142;
+	margin: 5px;
+}
+
+
+.menu-overlay {
+	margin-top: 5px;
+    margin-bottom: 5px;
+    position: absolute;
+    display: inline-flex;
+    z-index: 999;
+    background-color: #483d8be6;
+    padding: 20px;
+	border-radius: 25px;
+	bottom: 15px;
 }
 
 

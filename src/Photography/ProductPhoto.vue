@@ -33,8 +33,7 @@ export default {
       axios
       .get('/json/photography/product-photography.json')
       .then(response => {
-          console.log(response.data);
-          this.array = response.data.sort((a, b) => a.name.localeCompare(b.name))
+          this.array = response.data;
       });
   }
   }
