@@ -1,36 +1,9 @@
 [
     {
-        "src": "images/programming/robot.jpg",
+        "src": "https://www.youtube.com/embed/Qwxywdqlm2E",
         "name": "MyRio Robot",
         "desc": "A custom-built robot powered by a MyRio computer and programmed in LabView. The robot can either be steered by the user using a hacked Wii Remote or ran automatically using a simple AI algorithm. The algorithm utilizes onboard infrared sensors to detect obstacles and rotate accordingly.",
         "date": "2019-08-01",
         "code": ""
-    },
-    {
-        "src": "images/programming/pong.jpg",
-        "name": "Atari Pong",
-        "desc": "An Atari 2600 pong clone written using a combination of 6502 assembly and a BASIC interpreter.",
-        "date": "2019-12-30",
-        "code": ""
-    },
-    {
-        "src": "images/programming/qtportfolio.jpg",
-        "name": "Apple Quicktake Portfolio",
-        "desc": "A 90s-inspired web portfolio for vintage Apple QuickTake photos.",
-        "date": "2020-08-12",
-        "code": ""
-    },
-    {
-        "src": "images/programming/tour.jpg",
-        "name": "CAD Building VR Tour",
-        "desc": "A 3D mockup of blueprints for a new engineering building, intended for presentations during construction. The program featured an automated walkthrough of the building with 3D graphics overlayed on top of 360 degree photography.",
-        "date": "2018-05-16"
-    },
-    {
-        "src": "images/programming/client.jpg",
-        "name": "CUDA Particle Client",
-        "desc": "Designed for the Microsoft HoloLens, this is the client program that recieves particle data from the CUDA Accelerated Particle System server. It uses data from the server to render particles in a VR / AR enviornment.",
-        "date": "2020-03-21"
     }
-
 ]

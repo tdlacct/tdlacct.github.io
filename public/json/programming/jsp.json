@@ -1,21 +1,21 @@
 [
     {
-        "src": "images/programming/filebrowser.jpg",
+        "src": "https://www.youtube.com/embed/Qwxywdqlm2E",
         "name": "Javascript File Browser",
         "desc": "A client-side file browser designed to access an Nginx server. It is more user-friendly than simply using an HTML index page.",
         "date": "2020-09-09"
     },
     {
-        "src": "images/programming/photoshop.jpg",
+        "src": "https://www.youtube.com/embed/Qwxywdqlm2E",
         "name": "Python Photoshop Editor",
         "desc": "A Python script to bulk create D&D monster cards by interfacing with Photoshop. The script is able to edit text and activate / deactivate Photoshop layers.",
         "date": "2020-07-12"
     },
     {
-        "src": "images/programming/pi.jpg",
+        "src": "https://www.youtube.com/embed/bRy5P_ioFW8",
         "name": "Raspberry Pi Donkey Car",
         "desc": "A small group research project that evaluated the performance of a Pi-controlled RC car with open-source Python AI libraries",
-        "date": "2020-11-01"
+        "date": "2019-11-1"
     }
 
 ]

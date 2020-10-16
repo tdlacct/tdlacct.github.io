@@ -1,15 +1,15 @@
 [
     {
-        "src": "https://www.youtube.com/embed/b-_CEq8qSwM",
+        "src": "https://www.youtube.com/embed/N8fk5HOtTiY",
         "name": "Console Lemonade Stand",
-        "desc": "A recreation of the classic Apple II Lemonade Stand game recreated in C++. Features randomized events, support for multiple players, and even an RPG minigame!",
+        "desc": "A recreation of the classic Apple II Lemonade Stand game in C++. Features randomized events, support for multiple players, and even an RPG minigame!",
         "date": "2018-11-14",
         "code": "https://github.com/tdlacct/Console-Lemonade-Stand"
     },
     {
         "src": "https://www.youtube.com/embed/b-_CEq8qSwM",
         "name": "CUDA Particle Engine",
-        "desc": "A major multi-year research project to build a real-time particle engine that utilizes GPU acceleration through C++ and CUDA. The program ran on an Nvidia RTX Titan to drive 100000 air particles.",
+        "desc": "A major multi-year research project focused on building a real-time particle engine. The engine utilizes GPU acceleration through C++ and CUDA, allowing for large amounts of parallel processing. The program ran on an Nvidia RTX Titan to drive 100000 air particles.",
         "date": "2020-03-21"
     }
 ]
