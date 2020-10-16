@@ -33,7 +33,7 @@ export default {
       axios
       .get('/json/programming/c.json')
       .then(response => {
-          this.array = response.data;
+          this.array = response.data.sort((a, b) => a.name.localeCompare(b.name))
       });
   }
   }

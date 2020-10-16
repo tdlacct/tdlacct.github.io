@@ -3,7 +3,7 @@
 <div>
 <div style="text-align: center; margin: auto;">
   <h3>Javascript / Python</h3>
-  <p>I've done a lot of web development and scripting projects using Javascript and Python.</p>
+  <p>I've used Javascript at my internship to build web apps. In fact, my portfolio itself uses VueJS!</p>
   </div>
  
   <window :images='array'></window>
@@ -33,7 +33,7 @@ export default {
       axios
       .get('/json/programming/jsp.json')
       .then(response => {
-          this.array = response.data;
+          this.array = response.data.sort((a, b) => a.name.localeCompare(b.name))
       });
   }
   }

@@ -1,8 +1,8 @@
 <template>
 <div>
 <div style="text-align: center; margin: auto;">
-  <h3>Featured Programming</h3>
-  <p>My second major is in computer science so I program often.</p>
+  <h3>Latest Programming Projects</h3>
+  <p>As a computer science major, I've done programming work for research projects, internships, and just for fun! Here's what's new!</p>
 </div>
 <featured :images='fullarray'></featured>
 </div>

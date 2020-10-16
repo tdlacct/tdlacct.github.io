@@ -1,6 +1,6 @@
 <template>
     <div class="selection-image-container-flex">
-    <div v-for="(subimg) in images" :key="subimg.name">
+    <div v-for="(subimg) in images" :key="subimg.name" class="youtube-border" >
         
          <iframe width="560" height="315" :src="subimg.src" frameborder="0" allowfullscreen></iframe>
          <h3>{{subimg.name}} — {{subimg.date}}</h3>

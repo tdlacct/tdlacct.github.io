@@ -3,7 +3,12 @@
         "src": "https://www.youtube.com/embed/Qwxywdqlm2E",
         "name": "MyRio Robot",
         "desc": "A custom-built robot powered by a MyRio computer and programmed in LabView. The robot can either be steered by the user using a hacked Wii Remote or ran automatically using a simple AI algorithm. The algorithm utilizes onboard infrared sensors to detect obstacles and rotate accordingly.",
-        "date": "2019-08-01",
-        "code": ""
+        "date": "2019-08-01"
+    },
+    {
+        "src": "https://www.youtube.com/embed/ZvW17JJ6Ovs",
+        "name": "Atari 2600 Pong Clone",
+        "desc": "A simple Pong clone created to run on real Atari 2600 hardware. It was written using a combination of BASIC scripting and MOS 6502 assembly language.",
+        "date": "2019-01-01"
     }
 ]
