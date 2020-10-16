@@ -3,7 +3,7 @@
 <div>
 <div style="text-align: center; margin: auto;">
   <h3>Unity3D</h3>
-  <p>I've been using Unity since high school as my main 3D engine. More than just a game engine, I've used Unity for Kinect demos, simulations, and VR work.</p>
+  <p>More than just a 3D game engine, I've used Unity for Kinect demos, simulations, and VR work.</p>
   </div>
  
   <window :images='array'></window>
