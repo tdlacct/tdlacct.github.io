@@ -1,13 +1,19 @@
 <template>
-    <div class="selection-image-container-flex">
+    
+    <div class="selection-image-container-flex" v-if="images.length !== 0 && timePassed > 1">
+    
     <div v-for="(subimg) in images" :key="subimg.name">
-        
         <img class="image-logo" :src="subimg.src" @click="loadModal(subimg)">
-        
-       
-        
     </div>
+
     <modal v-if="displayModal" :image="selected"></modal>
+    </div>
+
+    <div v-else class="selection-image-container-noflex" style="text-align: center">
+    <h3>Loading...
+    <br>
+    <img src="/svg/loading2.svg" class="loading-icon">
+    </h3>
     </div>
 </template>
 
@@ -18,7 +24,7 @@ export default {
   props: {
       images: {
       type: Array,
-      required: true
+      required: true,
     },
   },
 
@@ -26,6 +32,8 @@ export default {
     return {
       displayModal: false,
       selected: {},
+      timerInterval: null,
+      timePassed: 0,
     }
   },
 
@@ -33,7 +41,7 @@ export default {
        'modal': Modal
   },
   mounted: function () {
-
+    this.startTimer();
       
   },
 
@@ -41,6 +49,9 @@ export default {
     loadModal(image) {
         this.selected = image;
         this.displayModal = true;
+    },
+    startTimer() {
+      this.timerInterval = setInterval(() => (this.timePassed += 1), 1000);
     }
   },
 }

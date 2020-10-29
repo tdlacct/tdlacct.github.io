@@ -34,6 +34,12 @@
         "name": "Lämp Bulb",
         "desc": "Created for an art challenge, this piece depicts a creepy moth staring at a lightbulb.",
         "date": "2020-10-02"
+    },
+    {
+        "src": "/images/graphicdesign/ghosts.png",
+        "name": "Trick or Treating in 2020",
+        "desc": "A satire of the 2020 pandemic, this CG render shows two children on Halloween.",
+        "date": "2020-10-24"
     }
    
 

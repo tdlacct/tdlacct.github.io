@@ -12,7 +12,9 @@
 <hr>
 <div class="selection-container">
 <div  class="selection-div">
+<transition name="slide-fade">
 <router-view></router-view>
+</transition>
 </div>
 </div>
 </div>

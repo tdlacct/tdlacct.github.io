@@ -35,7 +35,10 @@
    
     </div>
     <div class="embedded" >
-    <router-view ></router-view>
+    
+    <router-view >
+    </router-view>
+    
     </div>
     
     
