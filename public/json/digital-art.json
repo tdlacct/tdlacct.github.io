@@ -18,12 +18,6 @@
         "date": "2020-08-26"
     },
     {
-        "src": "/images/graphicdesign/jellywave.png",
-        "name": "Grape Jellywave",
-        "desc": "A vaporwave-esque statue rendered with a custom made grape jelly shader.",
-        "date": "2020-06-29"
-    },
-    {
         "src": "/images/graphicdesign/fluid.gif",
         "name": "Shatter Sim",
         "desc": "A simulated computer graphic of a shattering statue. First test of the FLIP Fluids plug-in.",
@@ -40,6 +34,18 @@
         "name": "Trick or Treating in 2020",
         "desc": "A satire of the 2020 pandemic, this CG render shows two children on Halloween.",
         "date": "2020-10-24"
+    },
+    {
+    "src": "/images/graphicdesign/tree.jpg",
+        "name": "Mirror Ball",
+        "desc": "Rendered on a 20-year-old Macintosh computer, this vaporwave inspired scene features a reflective sphere and detailed landscape.",
+        "date": "2020-10-18"
+    },
+    {
+        "src": "/images/graphicdesign/spiral.jpg",
+        "name": "Water Spiral",
+        "desc": "Abstract art of a waterfall against a vibrant orange backdrop.",
+        "date": "2020-10-18"
     }
    
 
