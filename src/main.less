@@ -10,6 +10,11 @@
 	100%  {max-width: 400px;}
   }
 
+  @keyframes hide {
+	0%  {width: auto; display: flex;}
+	100%  {width: 0; display: none;}
+  }
+
   @keyframes spin {
     from {transform:rotate(0deg);}
     to {transform:rotate(360deg);}
@@ -134,11 +139,63 @@ a {
 	text-align: center;
 }
 
-.side {
+.side-hidden {
+	
+	display: flex;
+	flex-direction: column;
+	opacity: 0;
+	width: 0px;
+	transition: all .2s linear;
+	pointer-events: none;
+}
+
+.side-visible {
 	flex: 1;
 	display: flex;
 	flex-direction: column;
+	opacity: 1;
+    width: auto;
+    transition: all .2s linear;
 }
+
+.side-static {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	opacity: 1;
+    width: auto;
+}
+
+.left-menu {
+	width: 48px;
+    height: 100%;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 10px; */
+    transition: all 0.2s linear;
+	z-index: 1;
+	margin: 5px;
+}
+
+.hidden {
+	display: none;
+	pointer-events: none;
+}
+.left-menu:hover {
+	width: 64px;
+    height: 100%;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 10px; */
+    transition: all 0.2s linear;
+	z-index: 1;
+	margin: 5px;
+}
+
+
+
+
+
 
 .col-nav {
 	display: flex;

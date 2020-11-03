@@ -1,6 +1,9 @@
 <template>
   <div class="flex-root" id="app" style="margin: 0">
-        <div style="background-color: #171841" class="side">
+
+   
+        
+     <div style="background-color: #171841" :class="staticNav()">
       
       <div class="col-header">
         <p>Portfolio V3</p>
@@ -29,11 +32,18 @@
 
   </div>
 
+  
+
   <div class="col-footer">
     <p>© Luce 2020</p>
   </div>
    
     </div>
+
+    <div>
+      <img :src="'/svg/menu-' + sideVisible + '.svg'" :class="hideButton()" @click="sideVisible = !sideVisible" >
+    </div>
+
     <div class="embedded" >
     
     <router-view >
@@ -56,7 +66,7 @@ export default {
   },
   data: function () {
     return {
-      
+      sideVisible: false,
     }
   },
 
@@ -68,6 +78,25 @@ export default {
         
       }
       return 'tile'
+    },
+
+    hideButton() {
+     if (this.$router.currentRoute.matched[0].path === '') {
+        return 'hidden'
+      }
+        return 'left-menu'
+  }, 
+    
+
+    staticNav() {
+      if (this.$router.currentRoute.matched[0].path === '') {
+        return 'side-static'
+        
+      }
+      if (this.sideVisible === true) {
+        return 'side-visible'
+      }
+        return 'side-hidden'
     }
   },
 }
