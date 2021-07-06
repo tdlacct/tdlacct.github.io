@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+@keyframes kern {
+    0% {letter-spacing: 5px;}
+    50% {letter-spacing: 12px;}
+    100% {letter-spacing: 5px;}
+}
+@keyframes scroll-grid {
+    0% {background-position-y: -14px;
+        background-position-x: 12px;}
+    100% {background-position-y: 250px;
+        background-position-x: -210px;}
+}
+
+@keyframes garamond-transform {
+    0% {transform: translateX(-200px); opacity: 0;}
+    30%{transform: translateX(0px); opacity: 1;}
+    60%{transform: translateX(0px); opacity: 1;}
+    100% {transform: translateX(200px); opacity: 0;}
+}
+@keyframes garamond-subtitle {
+    0% {opacity: 0;}
+    20% {opacity: 0;}
+    40% {opacity: 1;}
+    60% {opacity: 1;}
+    80% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes garamond-bg {
+    0% {background-position-x: 0px;}
+    100% {background-position-x: -3953px;}
+}
+
+@keyframes cursor-blink {
+    0% {opacity: 0;}
+    49% {opacity: 0;}
+    50%{opacity: 1;}
+    99% {opacity: 1;}
+    100%{opacity: 0;}
+}
+
+@keyframes tilt-can {
+   
+}
+
+@keyframes fade-liquid {
+
+}
+
+@keyframes water-text {
+    
+}
+
+@font-face {
+    font-family: "Garamond";
+    src: url(/fonts/AGaramondPro-Regular.otf) format("font");
+  }
+
+  @font-face {
+    font-family: "VCR";
+    src: url(../fonts/VCR_OSD_MONO_1.001.ttf) format("truetype");
+  }
+
+
+.arrow-left {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 20px;
+    top: 40%;
+    z-index: 50000;
+}
+.arrow-right {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    z-index: 50000;
+}
+
+
+@media (min-width: 1024px) {
+#ad1 {
+        background-color: #174103;
+        margin: 0;
+        width: 100%;
+        min-height: 270px;
+        position: absolute;
+}
+#ad2 {
+        background-color: #770101;
+        margin: 0;
+        width: 100%;
+        min-height: 270px;
+        position: absolute;
+        font-family: "Garamond";
+}
+#ad2 h1 {
+    font-size: 5em;
+    color: wheat;
+    text-align: center;
+    animation: garamond-transform;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    z-index: 99;
+    position: relative;
+
+}
+#ad2 h3 {
+    font-size: 2em;
+    font-family: "Garamond";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    animation: garamond-subtitle;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    z-index: 99;
+    position: relative;
+
+}
+
+#ad2 .letters {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 270px;
+    top: 0;
+    background-image: url(../images/letters.png);
+    /* overflow-wrap: break-word; */
+    background-repeat: repeat;
+    color: #812636;
+    white-space: nowrap;
+    margin: 0;
+    z-index: 1;
+    background-size: cover;
+    animation: garamond-bg;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#ad3 {
+    background-color: #000000;
+    font-family: 'VCR';
+    color: white;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    min-height: 270px;
+    position: absolute;
+}
+#ad3 h3 {
+    font-size: 3em;
+}
+#ad3 button {
+    background-color: brown;
+    color: white;
+    font-size: 1em;
+    font-family: 'VCR';
+    padding: 5px 20px;
+    margin: 5px;
+}
+#ad3 button:hover {
+    background-color: rgb(230, 95, 95);
+    color: white;
+    font-size: 1em;
+    font-family: 'VCR';
+    padding: 5px 20px;
+}
+
+#ad3 .cursor {
+    animation: cursor-blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#ad3 .click-me {
+    font-size: 2em;
+    margin: 5px;
+    color: green;
+
+}
+
+#ad4 {
+    background-color: #ffffff;
+    font-family: sans-serif;
+    color: rgb(44, 46, 168);
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    min-height: 270px;
+    position: absolute;
+    
+}
+
+#ad4 .can {
+    width: 400px;
+    position: absolute;
+    /* left: 100px; */
+    transform: rotate(10deg);
+    top: -22px;
+    left: 116px;
+    animation: tilt-can;
+    animation-duration: 9.98s;
+    animation-iteration-count: infinite;
+}
+#ad4 .liquid {
+    width: 400px;
+    position: absolute;
+    left: 217px;
+    top: 58px;
+    z-index: 2;
+    animation: fade-liquid;
+    animation-duration: 9.98s;
+    animation-iteration-count: infinite;
+}
+#ad4 .header {
+    position: absolute;
+    left: 536px;
+    font-size: 3em;
+    animation: water-text;
+    animation-duration: 9.98s;
+    animation-iteration-count: infinite;
+    z-index: 4;
+}
+.error {
+    background-color: rgb(77, 77, 77);
+    color: red;
+    padding: 20px;
+    width: 512px;
+    height: 78px;
+    margin: auto;
+}
+.error-subtitle {
+    background-color: rgb(37, 54, 146);
+    color: rgb(255, 255, 255);
+    padding: 0px 20px;
+    width: 512px;
+    margin: auto;
+}
+.container {
+    overflow: hidden;
+    min-width: 1024px;
+    min-height: 270px;
+    margin: 0 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    background-color: #0e0341;
+    align-items: center;
+
+}
+.animation-text {
+    padding-top: 50px;
+    font-size: 48px;
+    letter-spacing: 5px;
+    color: white;
+    text-align: center;
+    animation: kern 2s;
+    animation-iteration-count: infinite;
+    z-index: 100;
+}
+.background {
+    background-image: url(../images/grid.png);
+    background-repeat: repeat;
+    
+
+    min-width: 100%;
+    min-height: 270;
+    position: fixed;
+    top: 0;
+    animation: scroll-grid 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    opacity: 50%;
+}
+
+.rect {
+    fill:rgb(0,0,255);
+    stroke-width:3;
+    stroke:rgb(0,0,0);
+    margin: auto;
+    height: 300px;
+    width: 50px;
+}
+.rect-anim {
+    width: 50px;
+    height: 100px;
+
+}
+.rect-anim-1 {
+    width: 50px;
+    animation: graph-1 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.rect-anim-2 {
+    width: 50px;
+    animation: graph-2 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.rect-anim-3 {
+    width: 50px;
+    animation: graph-2 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+}
+@media (max-width: 1024px) {
+    .container {
+        display: none;
+    }
+    }

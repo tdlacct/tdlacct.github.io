@@ -1,0 +1,33 @@
+[
+    {
+        "src": "https://www.youtube.com/embed/Hn_GSEU_u3U",
+        "name": "Virtual Reality CT Scan Viewer",
+        "desc": "Part of a medical tech demo, this program visualized CT scans in VR. The user had the ability to manipulate CT scan layers and rotate the data as if it was a 3D model.",
+        "date": "2019-03-04"
+    },
+    {
+        "src": "https://www.youtube.com/embed/MJPdk7LyJWU",
+        "name": "Social Distance Checker",
+        "desc": "Created during the Covid-19 pandemic, this application utilizes an Xbox Kinect camera to track multiple people within a space. If anybody steps closer than 6 feet to the camera, the program shouts at them to back up.",
+        "date": "2020-08-12"
+    },
+    {
+        "src": "https://www.youtube.com/embed/TxFIJ0AhRqY",
+        "name": "CAD Building VR Tour",
+        "desc": "A 3D mockup of blueprints for a new engineering building, intended for presentations during construction. The program featured an automated walkthrough of the building with 3D graphics overlayed on top of 360 degree photography.",
+        "date": "2018-05-16"
+    },
+    {
+        "src": "https://www.youtube.com/embed/0bdh0iEwqFs",
+        "name": "CUDA Particle Client",
+        "desc": "Designed for the Microsoft HoloLens, this is the client program that recieves particle data from the CUDA Accelerated Particle System server. It uses data from the server to render particles in a VR / AR enviornment.",
+        "date": "2020-03-21"
+    },
+    {
+        "src": "https://www.youtube.com/embed/x2WbkpqJB_k",
+        "name": "Real-Time RTX Demo",
+        "desc": "A showcase of real-time (24 hour) lighting in an environment rendered using Nvidia RTX and Unity's High-Definition Render Pipeline.",
+        "date": "2021-03-08"
+    }
+
+]
