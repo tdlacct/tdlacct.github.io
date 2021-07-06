@@ -22,6 +22,12 @@
         "name": "CUDA Particle Client",
         "desc": "Designed for the Microsoft HoloLens, this is the client program that recieves particle data from the CUDA Accelerated Particle System server. It uses data from the server to render particles in a VR / AR enviornment.",
         "date": "2020-03-21"
+    },
+    {
+        "src": "https://www.youtube.com/embed/x2WbkpqJB_k",
+        "name": "Real-Time RTX Demo",
+        "desc": "A showcase of real-time (24 hour) lighting in an environment rendered using Nvidia RTX and Unity's High-Definition Render Pipeline.",
+        "date": "2021-03-08"
     }
 
 ]

@@ -13,8 +13,7 @@
   <h3 style="text-align: center;">Computer Science / Graphic Design</h3>
   
   <br>
-  <p style="max-width: 800px; margin: auto; text-align: center;">Because I am a double major, this portfolio also includes programming projects in addition to graphic design work. The portfolio itself is a way to 
-    demonstrate my ability to correctly build and launch a website without relying on third-party CMS services.
+  <p style="max-width: 800px; margin: auto; text-align: center;">Hi, welcome to my portfolio! This portfolio is a way to demonstrate my ability to correctly build and launch a website (without relying on third-party CMS services). It is powered by Javascript and the Vue framework. Because I am a double major, this portfolio includes both programming projects and graphic design work. 
   </p>
   <div class="button-container">
   <router-link to="/graphicdesign/featured-graphic-design" class="display-type-button" >

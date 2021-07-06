@@ -28,6 +28,13 @@
         "name": "New Coke",
         "desc": "Period-style photograph of a can of New Coke sitting on top of a Nintendo Entertainment System",
         "date": "2019-07-12"
+    },
+    {
+        "src": "images/photography/gummy.jpg",
+        "name": "Pile Up Gummy Bears",
+        "desc": "Part of an advertisment for the fictional Sweet Street candy store.",
+        "date": "2021-04-29"
     }
+
 
 ]

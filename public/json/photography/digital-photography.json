@@ -52,6 +52,18 @@
         "name": "Wagon Wheel",
         "desc": "Close-up of a wagon wheel at a country fair",
         "date": "2019-03-14"
+    },
+    {
+        "src": "images/photography/bee.jpg",
+        "name": "Buzzy Friend",
+        "desc": "A little friend drinking water from a fountain. Captured with a macro lens.",
+        "date": "2020-11-02"
+    },
+    {
+        "src": "images/photography/frozen.jpg",
+        "name": "Frozen World",
+        "desc": "A close-up of frozen leaves taken during the 2021 Texas snowstorm.",
+        "date": "2021-02-13"
     }
 
 ]

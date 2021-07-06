@@ -28,6 +28,12 @@
         "name": "Crunix Logo",
         "desc": "A basic Helvetica logo used on official Crunix student organization documents. The bottom stripes represent the computer RGB color scheme.",
         "date": "2020-01-28"
+    },
+    {
+        "src": "images/graphicdesign/macy.png",
+        "name": "Macy Design Logo",
+        "desc": "A logo created for a fellow design student. The design was intended to be as contemporary as possible, so it incorporates simple shapes and the popular NeutraText typeface.",
+        "date": "2021-02-15"
     }
 
 ]

@@ -35,7 +35,7 @@
   
 
   <div class="col-footer">
-    <p>© Luce 2020</p>
+    <p>© Luce 2021</p>
   </div>
    
     </div>

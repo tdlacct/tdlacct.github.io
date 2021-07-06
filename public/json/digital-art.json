@@ -32,7 +32,7 @@
     {
         "src": "/images/graphicdesign/ghosts.png",
         "name": "Trick or Treating in 2020",
-        "desc": "A satire of the 2020 pandemic, this CG render shows two children on Halloween.",
+        "desc": "A satire of the 2020 pandemic, this CG render shows two children on Halloween. Winner of the 2021 UMHB student show!",
         "date": "2020-10-24"
     },
     {
@@ -46,6 +46,24 @@
         "name": "Water Spiral",
         "desc": "Abstract art of a waterfall against a vibrant orange backdrop.",
         "date": "2020-10-18"
+    },
+    {
+        "src": "/images/graphicdesign/beans.png",
+        "name": "Candy Packaging",
+        "desc": "A package of jelly beans for the fictional Sweet Street candy store. Designed as a VR asset for the Pacific Data Mall project.",
+        "date": "2021-04-19"
+    },
+    {
+        "src": "/images/graphicdesign/office.png",
+        "name": "Home Office",
+        "desc": "A CGI interior of an early-1990s home office, complete with a Macintosh LC and IBM poster.",
+        "date": "2021-01-17"
+    },
+    {
+        "src": "/images/graphicdesign/maze.png",
+        "name": "Liminal Glass",
+        "desc": "A maze of glass that creates an uncomfortable liminal space",
+        "date": "2021-01-22"
     }
    
 
