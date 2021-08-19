@@ -26,6 +26,7 @@ export default {
       logoarray: [],
       typearray: [],
       fullarray: [],
+      mgarray: [],
     }
   },
   mounted: function () {
@@ -46,12 +47,19 @@ export default {
             .then(response => {
                 this.typearray= response.data.sort((a, b) => a.name.localeCompare(b.name));
                 this.fullarray = this.fullarray.concat(this.typearray);
+                    
+                    axios
+                    .get('/json/motion.json')
+                    .then(response => {
+                        this.mgarray= response.data.sort((a, b) => a.name.localeCompare(b.name));
+                        this.fullarray = this.fullarray.concat(this.mgarray);
 
-                this.fullarray.sort(function(a,b){
-                 return new Date(b.date) - new Date(a.date);
-                });
+                        this.fullarray.sort(function(a,b){
+                        return new Date(b.date) - new Date(a.date);
+                        });
 
-               this.fullarray = this.fullarray.slice(0, 10);
+                      this.fullarray = this.fullarray.slice(0, 10);
+                    });
             });
         });
     });

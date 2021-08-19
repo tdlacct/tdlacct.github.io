@@ -7,6 +7,7 @@ import DigitalArt from '../GraphicDesign/Digital.vue'
 import FeaturedGD from '../GraphicDesign/FeaturedGD.vue'
 import Logos from '../GraphicDesign/Logo.vue'
 import Typography from '../GraphicDesign/Type.vue'
+import MotionGraphics from '../GraphicDesign/MotionGraphics.vue'
 
 import Photography from '../Photography.vue'
 import DigitalPhoto from '../Photography/DigitalPhoto.vue'
@@ -20,6 +21,9 @@ import FeaturedProgramming from '../Programming/FeaturedProgramming.vue'
 import JSP from '../Programming/JSP.vue'
 import Unity from '../Programming/Unity.vue'
 import Misc from '../Programming/Misc.vue'
+
+import SeniorStudio from '../SeniorStudio.vue'
+import FeaturedStudio from '../SeniorStudio/FeaturedStudio.vue'
 
 import Contact from '../Contact.vue'
 
@@ -53,6 +57,10 @@ const routes = [
       {
         path: 'digital-art',
         component: DigitalArt
+      },
+      {
+        path: 'motion-graphics',
+        component: MotionGraphics
       },
     ]
   },
@@ -104,6 +112,17 @@ const routes = [
         path: 'misc',
         component: Misc
       },
+    ]
+  },
+  {
+    path: '/seniorstudio',
+    name: 'Senior Studio',
+    component: SeniorStudio,
+    children: [ 
+      {
+        path: 'featured',
+        component: FeaturedStudio
+      }
     ]
   },
   {

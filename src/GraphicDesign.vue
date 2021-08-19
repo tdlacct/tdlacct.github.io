@@ -7,6 +7,7 @@
     <router-link to="/graphicdesign/logos" class="navigation-header">Logos / Emblems</router-link>
     <router-link to="/graphicdesign/typography" class="navigation-header">Typography</router-link>
     <router-link to="/graphicdesign/digital-art" class="navigation-header">Digital Art / Renders</router-link>
+    <router-link to="/graphicdesign/motion-graphics" class="navigation-header">Motion Graphics</router-link>
   </div>
 </div>
 <hr>
