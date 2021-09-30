@@ -64,6 +64,12 @@
         "name": "Liminal Glass",
         "desc": "A maze of glass that creates an uncomfortable liminal space",
         "date": "2021-01-22"
+    },
+    {
+        "src": "/images/graphicdesign/sunset.png",
+        "name": "Evening Sunset",
+        "desc": "A messy desk blinded with sunlight.",
+        "date": "2021-09-30"
     }
    
 
