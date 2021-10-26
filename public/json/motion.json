@@ -16,6 +16,18 @@
         "name": "Crunch Time",
         "desc": "A dynamic motion graphic created to advertise a new sports field",
         "date": "2021-10-12"
+    },
+    {
+        "src": "/images/graphicdesign/dtv.gif",
+        "name": "Dolphin TV",
+        "desc": "A retro MTV / Liquid Television TV bumper for the fictional Dolphin TV network",
+        "date": "2021-08-30"
+    },
+    {
+        "src": "/images/graphicdesign/miss.gif",
+        "name": "Miss MHB Bumper",
+        "desc": "A video / animation hybrid for the 60s-themed Miss MHB competition",
+        "date": "2021-10-26"
     }
    
 
