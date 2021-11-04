@@ -70,6 +70,12 @@
         "name": "Evening Sunset",
         "desc": "A messy desk blinded with sunlight.",
         "date": "2021-09-30"
+    },
+    {
+        "src": "/images/graphicdesign/tahiti.png",
+        "name": "Tahiti Lamp",
+        "desc": "A 3D model of the postmodern Memphis Tahati lamp",
+        "date": "2021-10-31"
     }
    
 
