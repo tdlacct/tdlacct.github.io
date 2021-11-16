@@ -28,6 +28,12 @@
         "name": "A Princess of Mars",
         "desc": "A typeset copy of the Edgar Burroughs science fiction novel with CGI illustrations. The design was intended to modernize the story with a more comic book style.",
         "date": "2021-03-29"
+    },
+    {
+        "src": "/images/graphicdesign/knights.jpg",
+        "name": "Jetsons Typeface (Cru Knights)",
+        "desc": "An ongoing project to extend the typeface used for the Jetsons logo with more characters",
+        "date": "2021-11-11"
     }
    
 
