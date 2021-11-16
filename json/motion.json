@@ -1,0 +1,34 @@
+[
+    {
+        "src": "/images/graphicdesign/pool.gif",
+        "name": "Summer Fun Video Loop",
+        "desc": "A seven-second loop for the UMHB video wall. An existing Photoshop composition was exported to After Effects and animated with various effects.",
+        "date": "2021-08-18"
+    },
+    {
+        "src": "/images/graphicdesign/candy.gif",
+        "name": "Retro Candy Ad",
+        "desc": "A fake television advertisment for the fictional Sweet Street candy store. The video was played back off of a genuine VHS tape to create an authentic retro look.",
+        "date": "2021-05-06"
+    },
+    {
+        "src": "/images/graphicdesign/field.gif",
+        "name": "Crunch Time",
+        "desc": "A dynamic motion graphic created to advertise a new sports field",
+        "date": "2021-10-12"
+    },
+    {
+        "src": "/images/graphicdesign/dtv.gif",
+        "name": "Dolphin TV",
+        "desc": "A retro MTV / Liquid Television TV bumper for the fictional Dolphin TV network",
+        "date": "2021-08-30"
+    },
+    {
+        "src": "/images/graphicdesign/miss.gif",
+        "name": "Miss MHB Bumper",
+        "desc": "A video / animation hybrid for the 60s-themed Miss MHB competition",
+        "date": "2021-10-26"
+    }
+   
+
+]

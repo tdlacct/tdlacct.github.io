@@ -1,0 +1,82 @@
+[
+    {
+        "src": "/images/graphicdesign/cube.png",
+        "name": "Isocube",
+        "desc": "An isometric 3D render inspired by the artwork of M.C. Escher.",
+        "date": "2019-09-25"
+    },
+    {
+        "src": "/images/graphicdesign/snowball.png",
+        "name": "Snowball Fight",
+        "desc": "Two snowmen having a friendly snowball fight. Designed and rendered in less than three hours for a speedart competition.",
+        "date": "2019-10-05"
+    },
+    {
+        "src": "/images/graphicdesign/chess.png",
+        "name": "3D Chess",
+        "desc": "A surreal shot with chess pieces inspired by a vintage Windows background. Rendered on a 1999 Macintosh as part of a retro CGI project.",
+        "date": "2020-08-26"
+    },
+    {
+        "src": "/images/graphicdesign/fluid.gif",
+        "name": "Shatter Sim",
+        "desc": "A simulated computer graphic of a shattering statue. First test of the FLIP Fluids plug-in.",
+        "date": "2020-10-11"
+    },
+    {
+        "src": "/images/graphicdesign/mothman.jpg",
+        "name": "Lämp Bulb",
+        "desc": "Created for an art challenge, this piece depicts a creepy moth staring at a lightbulb.",
+        "date": "2020-10-02"
+    },
+    {
+        "src": "/images/graphicdesign/ghosts.png",
+        "name": "Trick or Treating in 2020",
+        "desc": "A satire of the 2020 pandemic, this CG render shows two children on Halloween. Winner of the 2021 UMHB student show!",
+        "date": "2020-10-24"
+    },
+    {
+    "src": "/images/graphicdesign/tree.jpg",
+        "name": "Mirror Ball",
+        "desc": "Rendered on a 20-year-old Macintosh computer, this vaporwave inspired scene features a reflective sphere and detailed landscape.",
+        "date": "2020-10-18"
+    },
+    {
+        "src": "/images/graphicdesign/spiral.jpg",
+        "name": "Water Spiral",
+        "desc": "Abstract art of a waterfall against a vibrant orange backdrop.",
+        "date": "2020-10-18"
+    },
+    {
+        "src": "/images/graphicdesign/beans.png",
+        "name": "Candy Packaging",
+        "desc": "A package of jelly beans for the fictional Sweet Street candy store. Designed as a VR asset for the Pacific Data Mall project.",
+        "date": "2021-04-19"
+    },
+    {
+        "src": "/images/graphicdesign/office.png",
+        "name": "Home Office",
+        "desc": "A CGI interior of an early-1990s home office, complete with a Macintosh LC and IBM poster.",
+        "date": "2021-01-17"
+    },
+    {
+        "src": "/images/graphicdesign/maze.png",
+        "name": "Liminal Glass",
+        "desc": "A maze of glass that creates an uncomfortable liminal space",
+        "date": "2021-01-22"
+    },
+    {
+        "src": "/images/graphicdesign/sunset.gif",
+        "name": "Evening Sunset",
+        "desc": "A messy desk blinded with sunlight.",
+        "date": "2021-09-30"
+    },
+    {
+        "src": "/images/graphicdesign/tahiti.png",
+        "name": "Tahiti Lamp",
+        "desc": "A 3D model of the postmodern Memphis Tahati lamp",
+        "date": "2021-10-31"
+    }
+   
+
+]
