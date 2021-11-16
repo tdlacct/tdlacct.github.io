@@ -6,7 +6,7 @@
      <div style="background-color: #171841" :class="staticNav()">
       
       <div class="col-header">
-        <p>Portfolio V3</p>
+        <p>Portfolio V4</p>
       </div>
 
       <div class="col-nav">
@@ -26,8 +26,8 @@
       <span >Programming</span>
     </router-link>
 
-    <router-link to="/contact" style="background-color: rgb(100 97 151)" :class="setClass('/contact')">
-    <span >Contact</span>
+    <router-link to="/resume" style="background-color: rgb(100 97 151)" :class="setClass('/resume')">
+    <span >Resume</span>
     </router-link>
 
   </div>

@@ -126,8 +126,8 @@ const routes = [
     ]
   },
   {
-    path: '/contact',
-    name: 'Contact',
+    path: '/resume',
+    name: 'Resume',
     component: Contact,
     children: [
       

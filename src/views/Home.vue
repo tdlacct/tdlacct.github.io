@@ -9,7 +9,7 @@
   <div>
   <div style="padding: 30px">
   <h1 class="display-type">Tanner Luce</h1>
-  <h2 class="display-type">Portfolio Version 3</h2>
+  <h2 class="display-type">Portfolio Version 4</h2>
   <h3 style="text-align: center;">Computer Science / Graphic Design</h3>
   
   <br>
